@@ -27,7 +27,7 @@ body{
 }
 
 .separator{
-  height: 10px;
+  height: 5px;
   background: #284395;
   background: linear-gradient(57deg, rgba(40, 67, 149, 1) 0%, rgba(91, 203, 240, 1) 36%, rgba(255, 248, 236, 1) 73%);
 }
@@ -90,8 +90,8 @@ body{
 
 /* Create an active/current tablink class */
 .tab button.active {
-  color: #122353;
-  text-decoration: underline #122353;
+  color: #284395;
+  text-decoration: underline #284395;
 
 }
 
@@ -99,4 +99,14 @@ body{
 .tabcontent {
   display: none;
   border-top: none;
+  background: #FFF8EC;
+
+  background: linear-gradient(0deg,rgba(255, 248, 236, 1) 0%, rgba(255, 244, 194, 1) 94%, rgba(255, 248, 236, 1) 100%);
+}
+.tabcontent .game .mini-title{
+  color: #284395;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30;
 }
