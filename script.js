@@ -1,4 +1,6 @@
-
+window.onload = function() {
+  openTab(event, 'About')
+};
 
 function openTab(evt, tabName) {
   // Declare all variables
