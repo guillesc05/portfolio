@@ -33,27 +33,41 @@ body{
 }
 
 .tabcontent .game{
-    display: inline-block;
-    width: 800px;
-    padding: 30px;
+  
+    padding: 50px;
+
 }
 
-.tabcontent .game:hover{
-    background-color: #C7CCD0;
+.tabcontent .game .game-elems{
+  display: flex;
 }
 
 .tabcontent .game img{
-    width: 100%;
-    margin-bottom: 20px;
+    display: inline-block;
+    width: 45%;
+
+    border: 5px;
+    border-color:#284395;
+    border-radius: 10px;
+}
+
+.tabcontent .game .mini-title{
+  color: #284395;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 35;
 }
 
 .tabcontent .game .description{
-    width: 100%;
+  display: inline-block;
     color: #272932;
     font-family: "Sofia Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20
+    font-size: 20;
+  
+    margin-left: 70px;
 }
 
 /* Style the tab */
@@ -99,14 +113,6 @@ body{
 .tabcontent {
   display: none;
   border-top: none;
+  height:100%;
   background: #FFF8EC;
-
-  background: linear-gradient(0deg,rgba(255, 248, 236, 1) 0%, rgba(255, 244, 194, 1) 94%, rgba(255, 248, 236, 1) 100%);
-}
-.tabcontent .game .mini-title{
-  color: #284395;
-    font-family: "Special Gothic Expanded One", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 30;
 }
