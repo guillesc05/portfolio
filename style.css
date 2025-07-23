@@ -116,19 +116,34 @@ body{
   height:100%;
   background: #FFF8EC;
 }
-.tabcontent .art img{
+
+.tabcontent .art-content{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.tabcontent .art-row img{
   padding: 15px;
 }
 
-.tabcontent .art video{
+.tabcontent .art-row video{
   padding: 15px;
 }
 
-.tabcontent .art{
+.tabcontent .art-row{
   padding: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content:space-evenly
-  
+}
+
+.tabcontent .art-row .fishes{
+  height:200%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between
 }
