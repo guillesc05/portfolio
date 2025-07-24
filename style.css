@@ -20,7 +20,7 @@ body{
     color: #284395;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-style: normal;
+    font-style: medium;
     font-size: 30;
     margin-top: -50px;
     margin-left: 50px;
@@ -34,17 +34,41 @@ body{
 
 .tabcontent .game{
   
-    padding: 50px;
+    padding-top:4%;
+  padding-bottom: 4%;;
+  padding-left: 3%;
+  padding-right: 3%;
 
 }
+@media (max-width: 480px){
+  .tabcontent .game .game-elems{
+  display: flex;
+  flex-direction: column;
+  }
+}
+@media (min-width: 1025px){
 
 .tabcontent .game .game-elems{
   display: flex;
+  flex-direction: row;
+}
 }
 
-.tabcontent .game img{
+.tabcontent .game .game-elems .description{
+  display: inline-block;
+    color: #272932;
+    font-family: "Poppins", sans-serif;
+    font-weight: medium;
+    font-style: medium;
+    font-size: 20;
+  
+    margin-left: 70px;
+}
+
+.tabcontent .game .game-elems img{
     display: inline-block;
     width: 45%;
+    object-fit: contain;
 
     border: 5px;
     border-color:#284395;
@@ -59,20 +83,11 @@ body{
     font-size: 35;
 }
 
-.tabcontent .game .description{
-  display: inline-block;
-    color: #272932;
-    font-family: "Sofia Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20;
-  
-    margin-left: 70px;
-}
+
 
 /* Style the tab */
 .tab {
-  overflow: hidden;
+  
   display: flex;
   justify-content: space-evenly;
 }
@@ -111,12 +126,15 @@ body{
 
 .aboutme{
   color: #272932;
-    font-family: "Sofia Sans", sans-serif;
-    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-weight: medium;
     font-style: normal;
     font-size: 25;
   
-    padding: 70px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top:5%;
+    padding-bottom:5%;
 }
 
 /* Style the tab content */
@@ -132,7 +150,10 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  padding: 50px;
+  padding-top:4%;
+  padding-bottom: 4%;;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .tabcontent .art-row img{
@@ -144,7 +165,11 @@ body{
 }
 
 .tabcontent .art-row{
-  padding: 50px;
+  padding-top:4%;
+  padding-bottom: 4%;;
+  padding-left: 3%;
+  padding-right: 3%;
+
   display: flex;
   flex-direction: row;
   align-items: center;
