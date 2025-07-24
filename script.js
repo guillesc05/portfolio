@@ -1,5 +1,6 @@
 window.onload = function() {
-  openTab(event, 'About')
+  var button = document.getElementById("about-tab")
+  button.click()
 };
 
 function openTab(evt, tabName) {

@@ -109,6 +109,16 @@ body{
 
 }
 
+.aboutme{
+  color: #272932;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25;
+  
+    padding: 70px;
+}
+
 /* Style the tab content */
 .tabcontent {
   display: none;
