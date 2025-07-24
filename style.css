@@ -75,6 +75,16 @@ body{
     border-radius: 10px;
 }
 
+.tabcontent .game .game-elems video{
+    display: inline-block;
+    width: 45%;
+    object-fit: contain;
+
+    border: 5px;
+    border-color:#284395;
+    border-radius: 10px;
+}
+
 .tabcontent .game .mini-title{
   color: #284395;
     font-family: "Special Gothic Expanded One", sans-serif;
