@@ -66,9 +66,9 @@ body{
     margin-left: 70px;
 }
 
+
 .tabcontent .game .game-elems img{
     display: inline-block;
-    width: 45%;
     object-fit:contain;
 
     border: 5px;
